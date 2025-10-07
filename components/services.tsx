@@ -36,7 +36,7 @@ export function Services() {
           id: doc.id,
           ...doc.data(),
         })) as Service[]
-        setServices(servicesData.slice(0, 3))
+        setServices(servicesData)
 
         const contactDoc = await getDoc(doc(db, "settings", "contact"))
         if (contactDoc.exists()) {
