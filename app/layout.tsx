@@ -19,11 +19,11 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Mercvenus - Premium Room Rentals & Internet Solutions in Thika",
+  title: "Mercvenus Solutions - Fiber WiFi, CCTV & Electric Fence Installation in Thika",
   description:
-    "Find quality room rentals in Thika with modern amenities. Professional WiFi installation, CCTV setup, and internet solutions across Thika. Contact us for bookings.",
+    "MERCVENUS SOLUTIONS LIMITED - Dealers in Installation & Maintenance of Fiber Connection WiFi, CCTV Camera & Electric Fence. Quality room rentals in Thika. Contact: 0723795356 / 0734665641",
   keywords:
-    "room rentals Thika, internet solutions Thika, WiFi installation Thika, CCTV installation, house rentals Kenya",
+    "fiber connection Thika, WiFi installation Thika, CCTV installation Thika, electric fence installation, room rentals Thika, internet solutions Kenya",
   generator: "v0.app",
 }
 

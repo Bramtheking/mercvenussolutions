@@ -10,8 +10,8 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react"
 
 export function Contact() {
   const [contactInfo, setContactInfo] = useState({
-    phone: "+254 700 123 456",
-    email: "info@mercvenus.co.ke",
+    phone: "0723795356 / 0734665641",
+    email: "mercvenuslimited@gmail.com",
     location: "W3JR+WG5, Komu",
   })
   const [showContactDialog, setShowContactDialog] = useState(false)

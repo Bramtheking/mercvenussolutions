@@ -4,14 +4,14 @@ import { useState, useEffect } from "react"
 import { doc, getDoc } from "firebase/firestore"
 import { db } from "@/lib/firebase"
 import { Button } from "@/components/ui/button"
-import { MapPin, Wifi, Shield } from "lucide-react"
+import { MapPin, Wifi, Camera, Fence } from "lucide-react"
 
 export function Hero() {
   const [heroContent, setHeroContent] = useState({
-    title: "Premium Room Rentals in",
-    highlightText: "Thika",
+    title: "MERCVENUS",
+    highlightText: "SOLUTIONS",
     subtitle:
-      "Discover comfortable, modern rooms with excellent amenities. Plus professional internet solutions including WiFi and CCTV installations across Thika.",
+      "Dealers in Installation & Maintenance of Fiber Connection WiFi, CCTV Camera & Electric Fence. Discover comfortable, modern rooms with excellent amenities.",
   })
 
   useEffect(() => {
@@ -68,22 +68,22 @@ export function Hero() {
               className="glass p-4 rounded-xl flex items-center justify-center space-x-2 text-muted-foreground hover:scale-105 transition-transform duration-300 animate-slide-up"
               style={{ animationDelay: "0.6s" }}
             >
-              <MapPin className="h-5 w-5 text-primary" />
-              <span className="font-medium">Prime Thika Locations</span>
+              <Wifi className="h-5 w-5 text-primary" />
+              <span className="font-medium">Fiber Connection WiFi</span>
             </div>
             <div
               className="glass p-4 rounded-xl flex items-center justify-center space-x-2 text-muted-foreground hover:scale-105 transition-transform duration-300 animate-slide-up"
               style={{ animationDelay: "0.7s" }}
             >
-              <Wifi className="h-5 w-5 text-primary" />
-              <span className="font-medium">High-Speed Internet</span>
+              <Camera className="h-5 w-5 text-primary" />
+              <span className="font-medium">CCTV Installation</span>
             </div>
             <div
               className="glass p-4 rounded-xl flex items-center justify-center space-x-2 text-muted-foreground hover:scale-105 transition-transform duration-300 animate-slide-up"
               style={{ animationDelay: "0.8s" }}
             >
-              <Shield className="h-5 w-5 text-primary" />
-              <span className="font-medium">24/7 Security</span>
+              <Fence className="h-5 w-5 text-primary" />
+              <span className="font-medium">Electric Fence</span>
             </div>
           </div>
         </div>

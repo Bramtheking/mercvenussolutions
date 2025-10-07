@@ -10,7 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { Wifi, Camera, Router, Smartphone, Shield, Headphones, CheckCircle, Phone, Mail } from "lucide-react"
+import { Wifi, Camera, Router, Smartphone, Shield, Headphones, CheckCircle, Phone, Mail, Fence } from "lucide-react"
 
 const iconMap: Record<string, any> = {
   Wifi,
@@ -19,6 +19,7 @@ const iconMap: Record<string, any> = {
   Smartphone,
   Shield,
   Headphones,
+  Fence,
 }
 
 export default function InternetSolutionsPage() {
@@ -26,8 +27,8 @@ export default function InternetSolutionsPage() {
   const [loading, setLoading] = useState(true)
   const [showQuoteDialog, setShowQuoteDialog] = useState(false)
   const [contactInfo, setContactInfo] = useState({
-    phone: "+254 700 123 456",
-    email: "info@mercvenus.co.ke",
+    phone: "0723795356 / 0734665641",
+    email: "mercvenuslimited@gmail.com",
   })
 
   useEffect(() => {
@@ -71,11 +72,10 @@ export default function InternetSolutionsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="font-serif font-black text-4xl md:text-6xl text-foreground mb-6">
-              Internet Solutions <span className="text-primary">Thika</span>
+              MERCVENUS <span className="text-primary">SOLUTIONS</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Professional WiFi installation, CCTV setup, and comprehensive internet solutions across Thika. Fast,
-              reliable, and affordable.
+              Dealers in Installation & Maintenance of Fiber Connection WiFi, CCTV Camera & Electric Fence. Professional service across Thika. Fast, reliable, and affordable.
             </p>
             <Button size="lg" className="text-lg px-8" onClick={() => setShowQuoteDialog(true)}>
               Get Free Quote Today
@@ -90,7 +90,7 @@ export default function InternetSolutionsPage() {
           <div className="text-center mb-12">
             <h2 className="font-serif font-black text-3xl md:text-4xl text-foreground mb-4">Our Services</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Complete internet and security solutions for homes and businesses in Thika
+              Complete Fiber WiFi, CCTV Camera & Electric Fence installation and maintenance for homes and businesses in Thika
             </p>
           </div>
 

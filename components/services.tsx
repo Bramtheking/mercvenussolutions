@@ -7,7 +7,7 @@ import { Service } from "@/lib/types"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { Wifi, Router, Camera, Smartphone, Shield, Headphones, Phone, Mail } from "lucide-react"
+import { Wifi, Router, Camera, Smartphone, Shield, Headphones, Phone, Mail, Fence } from "lucide-react"
 
 const iconMap: Record<string, any> = {
   Wifi,
@@ -16,6 +16,7 @@ const iconMap: Record<string, any> = {
   Smartphone,
   Shield,
   Headphones,
+  Fence,
 }
 
 export function Services() {
@@ -23,8 +24,8 @@ export function Services() {
   const [loading, setLoading] = useState(true)
   const [showQuoteDialog, setShowQuoteDialog] = useState(false)
   const [contactInfo, setContactInfo] = useState({
-    phone: "+254 700 123 456",
-    email: "info@mercvenus.co.ke",
+    phone: "0723795356 / 0734665641",
+    email: "mercvenuslimited@gmail.com",
   })
 
   useEffect(() => {
@@ -80,9 +81,9 @@ export function Services() {
     <section className="py-16 bg-accent">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="font-serif font-black text-3xl md:text-4xl text-foreground mb-4">Internet Solutions Thika</h2>
+          <h2 className="font-serif font-black text-3xl md:text-4xl text-foreground mb-4">Our Services</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Professional WiFi installation, CCTV setup, and comprehensive internet solutions across Thika
+            Fiber Connection WiFi, CCTV Camera & Electric Fence Installation and Maintenance across Thika
           </p>
         </div>
 

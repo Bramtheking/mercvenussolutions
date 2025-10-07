@@ -16,14 +16,14 @@ export function SiteSettingsManager() {
   const [saving, setSaving] = useState(false)
 
   const [heroData, setHeroData] = useState({
-    title: "Premium Room Rentals in",
-    highlightText: "Thika",
-    subtitle: "Discover comfortable, modern rooms with excellent amenities. Plus professional internet solutions including WiFi and CCTV installations across Thika.",
+    title: "MERCVENUS",
+    highlightText: "SOLUTIONS",
+    subtitle: "Dealers in Installation & Maintenance of Fiber Connection WiFi, CCTV Camera & Electric Fence. Discover comfortable, modern rooms with excellent amenities.",
   })
 
   const [contactData, setContactData] = useState({
-    phone: "+254 700 123 456",
-    email: "info@mercvenus.co.ke",
+    phone: "0723795356 / 0734665641",
+    email: "mercvenuslimited@gmail.com",
     location: "W3JR+WG5, Komu",
   })
 

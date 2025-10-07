@@ -8,8 +8,8 @@ import { Phone, Mail, MapPin } from "lucide-react"
 
 export function Footer() {
   const [contactInfo, setContactInfo] = useState({
-    phone: "+254 700 123 456",
-    email: "info@mercvenus.co.ke",
+    phone: "0723795356 / 0734665641",
+    email: "mercvenuslimited@gmail.com",
     location: "Thika Town Center",
   })
 
@@ -33,10 +33,9 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-serif font-black text-2xl text-primary mb-4">Mercvenus</h3>
+            <h3 className="font-serif font-black text-2xl text-primary mb-4">Mercvenus Solutions</h3>
             <p className="text-sm mb-4 text-gray-300">
-              Premium room rentals and professional internet solutions in Thika. Your comfort and connectivity, our
-              priority.
+              MERCVENUS SOLUTIONS LIMITED - Dealers in Installation & Maintenance of Fiber Connection WiFi, CCTV Camera & Electric Fence. Premium room rentals in Thika.
             </p>
           </div>
 
@@ -50,17 +49,17 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/internet-solutions" className="text-gray-300 hover:text-primary transition-colors">
-                  WiFi Installation
+                  Fiber Connection WiFi
                 </Link>
               </li>
               <li>
                 <Link href="/internet-solutions" className="text-gray-300 hover:text-primary transition-colors">
-                  CCTV Setup
+                  CCTV Camera Installation
                 </Link>
               </li>
               <li>
                 <Link href="/internet-solutions" className="text-gray-300 hover:text-primary transition-colors">
-                  Network Solutions
+                  Electric Fence Installation
                 </Link>
               </li>
             </ul>
@@ -113,7 +112,7 @@ export function Footer() {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
           <p className="text-gray-400">
-            &copy; 2025 Mercvenus. All rights reserved. | Internet Solutions Thika | Room Rentals Thika
+            &copy; 2025 Mercvenus Solutions Limited. All rights reserved. | Fiber WiFi | CCTV | Electric Fence | Room Rentals Thika
           </p>
         </div>
       </div>

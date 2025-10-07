@@ -11,8 +11,8 @@ import { Phone, Menu, Mail } from "lucide-react"
 export function Header() {
   const [showBookingDialog, setShowBookingDialog] = useState(false)
   const [contactInfo, setContactInfo] = useState({
-    phone: "+254 700 123 456",
-    email: "info@mercvenus.co.ke",
+    phone: "0723795356 / 0734665641",
+    email: "mercvenuslimited@gmail.com",
   })
 
   useEffect(() => {
